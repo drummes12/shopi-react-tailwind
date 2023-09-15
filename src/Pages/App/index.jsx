@@ -8,7 +8,6 @@ import MyOrders from '../MyOrders'
 import NotFound from '../NotFound'
 import SignIn from '../SignIn'
 import NavBar from '../../Components/NavBar'
-import Log from '../../Components/Log'
 
 function AppRoutes() {
   const routes = useRoutes([
@@ -35,7 +34,6 @@ export default function App() {
       <BrowserRouter>
         <NavBar />
         <AppRoutes />
-        <Log />
       </BrowserRouter>
     </ShoppingCartProvider>
   )
